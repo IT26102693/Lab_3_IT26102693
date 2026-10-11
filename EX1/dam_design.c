@@ -13,7 +13,7 @@ int main(void)
 	 printf("Enter the flow rate of water in cubic meters per second(must be a positive value):");
 	 scanf("%lf",&flow);
 
-	 //calculations
+	 //calculations are made
 	 mps=flow*mass_of_cubic_meter_of_water;
 	 work=mps*gravitational_constant*height;
 	 power=efficiency_constant*work;
